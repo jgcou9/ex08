@@ -1,1 +1,44 @@
 ex08
+
+9/20
+
+-1
+la bibliothèque (library) doit être dans le répertoire lib
+library ex08;
+
+-1
+part '../lib/functions.dart';
+utiliser le nom du paquet (package) et non une position relative
+
+8.1
+-1
+sortByLastName(var members){
+-->
+sortByLastName(List members) {
+
+-1
+List<Map> q1Associations = [ 
+     {'name': 'Sens', 'description': 'Ottawa Senators'}, 
+     {'name': 'Heat', 'description': 'Miami Heat'}, 
+     {'name': 'Wings', 'description': 'Detroit Red Wings'}]; 
+List<Map> q1Members = [ 
+     {'association': 'Wings', 'firstName': 'Daniel', 'lastName': 'Alfredsson', 'email': 'DAlfredsson@wings.com'}, 
+     {'association': 'Sens', 'firstName': 'Erik', 'lastName': 'Karlsson', 'email': 'EKarlsson@sens.com'}, 
+     {'association': 'Heat', 'firstName': 'Dwyane', 'lastName': 'Wade', 'email': 'DWade@heat.com'}];
+-->
+associations = [
+  {“name”: “IS”, “description”: “Information Systems”, “members”: 
+   [{“firstName”: “Dzenan”, “lastName”: “Ridjanovic”, “email”: “dr@gmail.com”},
+    {“firstName”: “Robert”, “lastName”: “Nelson”, “email”: “rn@gmail.com”}]},
+  {“name”: “CS”, “description”: “Computer Science”,  “members”: 
+   [{“firstName”: “David”, “lastName”: “Curtis”, “email”: “dc@gmail.com”}]}
+]
+
+-1 GIVEN ASSOCIATION
+Sort the list of members of a GIVEN ASSOCIATION first by the last name, 
+THEN by the first name.
+-1 THEN
+
+-5
+8.2
+Create a CLASS MODEL with associations and members...
