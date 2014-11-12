@@ -48,4 +48,3 @@ class Members extends ConceptEntities<Member> {
   Members newEntities() => new Members();
   Member newEntity() => new Member();
 }
-

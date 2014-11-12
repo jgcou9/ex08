@@ -51,4 +51,3 @@ testMembers() {
 main() {
   testMembers();
 }
-

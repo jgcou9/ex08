@@ -37,4 +37,3 @@ class Memberships extends ConceptEntities<Membership> {
   Memberships newEntities() => new Memberships();
   Membership newEntity() => new Membership();
 }
-

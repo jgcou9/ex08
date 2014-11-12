@@ -28,4 +28,3 @@ class Associations extends ConceptEntities<Association> {
   Associations newEntities() => new Associations();
   Association newEntity() => new Association();
 }
-

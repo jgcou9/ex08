@@ -29,4 +29,3 @@ testAssociations() {
 main() {
   testAssociations();
 }
-
